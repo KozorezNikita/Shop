@@ -1,0 +1,18 @@
+.myInput {
+  font-size: 1.3rem;
+  border-radius: 2rem;
+  border: none;
+  padding: 0.4rem;
+}
+
+@media screen and (max-width: 550px) {
+  .myInput {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .myInput {
+    font-size: 0.8rem;
+  }
+}
