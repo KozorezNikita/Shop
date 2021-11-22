@@ -9,7 +9,7 @@ import "./styles/App.css";
 function App() {
   return (
     <ShopProvider>
-      <HashRouter>
+      <HashRouter basename="/">
         <Navbar />
         <ShopRouter />
       </HashRouter>
