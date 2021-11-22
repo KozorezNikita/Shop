@@ -30,7 +30,7 @@ function Shop() {
 
   useEffect(() => {
     fetchProducts();
-  }, [page]);
+  }, [page ]);
 
   useEffect(() => {
     document.addEventListener("scroll", scrollHandler);
